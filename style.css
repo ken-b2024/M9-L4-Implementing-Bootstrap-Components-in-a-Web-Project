@@ -41,12 +41,12 @@ form {
     width: 30%;
 }
 .button {
+    box-shadow: 3px 5px #888888;
     width: 20%;
     margin-top: 15px;
     margin-left: 40%;
 }
 .button:hover {
-    box-shadow: 3px 5px #888888;
-    width: 21%;
-    height: 48px;
+    width: 19%;
+    height: 47px;
 }
