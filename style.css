@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(blue, lightblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    padding-left: 15%;
+}
+header h1 {
+    color: azure;
+    display: block;
+    margin-bottom: 5%;
+    font-size: 72pt;
+    font-weight: bolder;
+}
+header h2 {
+    font-size: 40pt;
+    font-weight: 700;
+}
+h1 small {
+    color: black;
+    opacity: 65%;
+    position: relative;
+    top: -180px;
+    left: 295px;
+}
+@media screen and (max-width:2213px) {
+    h1 small {
+        color: black;
+        opacity: 65%;
+        position: relative;
+        top: -160px;
+        left: 295px;
+    }
+}
+form {
+    border: 5px solid lightblue;
+    border-radius: 25px;
+    padding: 0.5%;
+    margin-left: 35%;
+    width: 30%;
+}
+.button {
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 40%;
+}
+.button:hover {
+    box-shadow: 3px 5px #888888;
+    width: 21%;
+    height: 48px;
+}
